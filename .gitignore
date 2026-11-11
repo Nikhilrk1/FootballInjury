@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+dist-ssr/
+.vite/
+.cache/
+*.tsbuildinfo
+coverage/
+
+# Local environment variables; keep shareable templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sites runtime files
+.sites-runtime/
+.sites-install-report.json
+
+# Editor and operating system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
